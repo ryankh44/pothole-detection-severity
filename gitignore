@@ -1,0 +1,21 @@
+# Python / Jupyter
+yolo_env/
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+
+# Secrets
+.env
+
+# Datasets and training outputs (too large, can be re-downloaded)
+Potholes-Detection-1/
+severity_dataset/
+severity_dataset_split/
+runs/
+weights/
+
+# Backup of my old files
+old_versions/
+
+# Model weights (shared through a GitHub Release instead)
+*.pt

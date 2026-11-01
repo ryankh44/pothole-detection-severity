@@ -1,0 +1,9 @@
+torch
+torchvision
+ultralytics
+opencv-python
+pillow
+matplotlib
+scikit-learn
+roboflow
+ipykernel
