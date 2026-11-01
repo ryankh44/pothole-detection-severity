@@ -24,7 +24,12 @@ photo or video frame -> YOLO detector -> crop each pothole -> severity classifie
 
 **Detector** (890 test images): precision 0.85, recall 0.79, **mAP50 0.833**, mAP50-95 0.528. About 85% of the boxes it draws are real potholes, and it finds about 79% of the real ones.
 
+Training curves (from the validation set, 1,808 images):
+
 ![Training curves](images/results.png)
+
+Confusion matrix (validation set, counts of boxes: 3,692 potholes found, 795 missed, 928 false alarms):
+
 ![Confusion matrix](images/confusion_matrix.png)
 
 **Severity classifier** (199 test images): **79% accuracy**.
