@@ -63,7 +63,7 @@ images/                     # Images used in this README
    pip install -r requirements.txt
    ```
 
-2. Download the two trained weights from the **Releases** tab of this repository and place them like this:
+2. Download `best.pt` and `severity_layer4.pt` from the [latest release](https://github.com/ryankh44/pothole-detection-severity/releases/latest) and place them like this:
 
    ```
    runs/detect/pothole_runs/v1/weights/best.pt    # detector
